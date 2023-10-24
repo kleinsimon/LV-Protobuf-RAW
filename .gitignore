@@ -1,0 +1,15 @@
+*.vip
+builds/
+
+# Libraries
+*.lvlibp
+*.llb
+*.nupkg
+
+# Executables
+*.exe
+
+# Metadata
+*.aliases
+*.lvlps
+.cache/
