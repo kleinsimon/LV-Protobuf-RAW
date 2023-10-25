@@ -8,59 +8,59 @@
 
 </Property>
 	<Item Name="Helpers" Type="Folder">
-		<Item Name="Arithmetic Shift.vi" Type="VI" URL="../Protobuf RAW/Helpers/Arithmetic Shift.vi"/>
-		<Item Name="Count VarINT.vi" Type="VI" URL="../Protobuf RAW/Helpers/Count VarINT.vi"/>
-		<Item Name="Decode Tag.vi" Type="VI" URL="../Protobuf RAW/Helpers/Decode Tag.vi"/>
-		<Item Name="Encode Tag.vi" Type="VI" URL="../Protobuf RAW/Helpers/Encode Tag.vi"/>
-		<Item Name="From ZigZag.vim" Type="VI" URL="../Protobuf RAW/Helpers/From ZigZag.vim"/>
-		<Item Name="Parse Buffer.vi" Type="VI" URL="../Protobuf RAW/Helpers/Parse Buffer.vi"/>
-		<Item Name="Parse VarINT.vi" Type="VI" URL="../Protobuf RAW/Helpers/Parse VarINT.vi"/>
-		<Item Name="To VarINT.vim" Type="VI" URL="../Protobuf RAW/Helpers/To VarINT.vim"/>
-		<Item Name="To ZigZag.vim" Type="VI" URL="../Protobuf RAW/Helpers/To ZigZag.vim"/>
-		<Item Name="Wire Chunk.ctl" Type="VI" URL="../Protobuf RAW/Helpers/Wire Chunk.ctl"/>
+		<Item Name="Arithmetic Shift.vi" Type="VI" URL="../Helpers/Arithmetic Shift.vi"/>
+		<Item Name="Count VarINT.vi" Type="VI" URL="../Helpers/Count VarINT.vi"/>
+		<Item Name="Decode Tag.vi" Type="VI" URL="../Helpers/Decode Tag.vi"/>
+		<Item Name="Encode Tag.vi" Type="VI" URL="../Helpers/Encode Tag.vi"/>
+		<Item Name="From ZigZag.vim" Type="VI" URL="../Helpers/From ZigZag.vim"/>
+		<Item Name="Parse Buffer.vi" Type="VI" URL="../Helpers/Parse Buffer.vi"/>
+		<Item Name="Parse VarINT.vi" Type="VI" URL="../Helpers/Parse VarINT.vi"/>
+		<Item Name="To VarINT.vim" Type="VI" URL="../Helpers/To VarINT.vim"/>
+		<Item Name="To ZigZag.vim" Type="VI" URL="../Helpers/To ZigZag.vim"/>
+		<Item Name="Wire Chunk.ctl" Type="VI" URL="../Helpers/Wire Chunk.ctl"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="I32" Type="Folder">
-			<Item Name="fixed32.lvclass" Type="LVClass" URL="../Protobuf RAW/fixed32/fixed32.lvclass"/>
-			<Item Name="float.lvclass" Type="LVClass" URL="../Protobuf RAW/float/float.lvclass"/>
-			<Item Name="I32.lvclass" Type="LVClass" URL="../Protobuf RAW/I32 Encoder/I32.lvclass"/>
-			<Item Name="sfixed32.lvclass" Type="LVClass" URL="../Protobuf RAW/sfixed32/sfixed32.lvclass"/>
+			<Item Name="fixed32.lvclass" Type="LVClass" URL="../fixed32/fixed32.lvclass"/>
+			<Item Name="float.lvclass" Type="LVClass" URL="../float/float.lvclass"/>
+			<Item Name="I32.lvclass" Type="LVClass" URL="../I32 Encoder/I32.lvclass"/>
+			<Item Name="sfixed32.lvclass" Type="LVClass" URL="../sfixed32/sfixed32.lvclass"/>
 		</Item>
 		<Item Name="I64" Type="Folder">
-			<Item Name="double.lvclass" Type="LVClass" URL="../Protobuf RAW/double/double.lvclass"/>
-			<Item Name="fixed64.lvclass" Type="LVClass" URL="../Protobuf RAW/fixed64/fixed64.lvclass"/>
-			<Item Name="I64.lvclass" Type="LVClass" URL="../Protobuf RAW/I64 Wire/I64.lvclass"/>
-			<Item Name="sfixed64.lvclass" Type="LVClass" URL="../Protobuf RAW/sfixed64/sfixed64.lvclass"/>
+			<Item Name="double.lvclass" Type="LVClass" URL="../double/double.lvclass"/>
+			<Item Name="fixed64.lvclass" Type="LVClass" URL="../fixed64/fixed64.lvclass"/>
+			<Item Name="I64.lvclass" Type="LVClass" URL="../I64 Wire/I64.lvclass"/>
+			<Item Name="sfixed64.lvclass" Type="LVClass" URL="../sfixed64/sfixed64.lvclass"/>
 		</Item>
 		<Item Name="Intern" Type="Folder">
 			<Item Name="Interfaces" Type="Folder">
-				<Item Name="Basic Type.lvclass" Type="LVClass" URL="../Protobuf RAW/Tag/Basic Type.lvclass"/>
-				<Item Name="Proto Type.lvclass" Type="LVClass" URL="../Protobuf RAW/Proto Value/Proto Type.lvclass"/>
-				<Item Name="Scalar Type.lvclass" Type="LVClass" URL="../Protobuf RAW/Scalar Encoder/Scalar Type.lvclass"/>
-				<Item Name="String Representable.lvclass" Type="LVClass" URL="../Protobuf RAW/String Representable/String Representable.lvclass"/>
-				<Item Name="Type Serializer.lvclass" Type="LVClass" URL="../Protobuf RAW/Type Serializer/Type Serializer.lvclass"/>
-				<Item Name="Wire Type Group.lvclass" Type="LVClass" URL="../Protobuf RAW/Wire Type Group/Wire Type Group.lvclass"/>
+				<Item Name="Basic Type.lvclass" Type="LVClass" URL="../Tag/Basic Type.lvclass"/>
+				<Item Name="Proto Type.lvclass" Type="LVClass" URL="../Proto Value/Proto Type.lvclass"/>
+				<Item Name="Scalar Type.lvclass" Type="LVClass" URL="../Scalar Encoder/Scalar Type.lvclass"/>
+				<Item Name="String Representable.lvclass" Type="LVClass" URL="../String Representable/String Representable.lvclass"/>
+				<Item Name="Type Serializer.lvclass" Type="LVClass" URL="../Type Serializer/Type Serializer.lvclass"/>
+				<Item Name="Wire Type Group.lvclass" Type="LVClass" URL="../Wire Type Group/Wire Type Group.lvclass"/>
 			</Item>
 			<Item Name="Proto Type Common.lvclass" Type="LVClass" URL="../Proto Type Common/Proto Type Common.lvclass"/>
 		</Item>
 		<Item Name="LEN" Type="Folder">
-			<Item Name="bytes.lvclass" Type="LVClass" URL="../Protobuf RAW/bytes/bytes.lvclass"/>
-			<Item Name="LEN.lvclass" Type="LVClass" URL="../Protobuf RAW/LEN Encoder/LEN.lvclass"/>
-			<Item Name="packed.lvclass" Type="LVClass" URL="../Protobuf RAW/packed/packed.lvclass"/>
-			<Item Name="Raw Message.lvclass" Type="LVClass" URL="../Protobuf RAW/Message/Raw Message.lvclass"/>
-			<Item Name="string.lvclass" Type="LVClass" URL="../Protobuf RAW/string/string.lvclass"/>
+			<Item Name="bytes.lvclass" Type="LVClass" URL="../bytes/bytes.lvclass"/>
+			<Item Name="LEN.lvclass" Type="LVClass" URL="../LEN Encoder/LEN.lvclass"/>
+			<Item Name="packed.lvclass" Type="LVClass" URL="../packed/packed.lvclass"/>
+			<Item Name="Raw Message.lvclass" Type="LVClass" URL="../Message/Raw Message.lvclass"/>
+			<Item Name="string.lvclass" Type="LVClass" URL="../string/string.lvclass"/>
 		</Item>
 		<Item Name="VARINT" Type="Folder">
-			<Item Name="bool.lvclass" Type="LVClass" URL="../Protobuf RAW/bool/bool.lvclass"/>
-			<Item Name="enum.lvclass" Type="LVClass" URL="../Protobuf RAW/enum/enum.lvclass"/>
-			<Item Name="int32.lvclass" Type="LVClass" URL="../Protobuf RAW/int32/int32.lvclass"/>
-			<Item Name="int64.lvclass" Type="LVClass" URL="../Protobuf RAW/int64/int64.lvclass"/>
-			<Item Name="sint32.lvclass" Type="LVClass" URL="../Protobuf RAW/sint32/sint32.lvclass"/>
-			<Item Name="sint64.lvclass" Type="LVClass" URL="../Protobuf RAW/sint64/sint64.lvclass"/>
-			<Item Name="uint32.lvclass" Type="LVClass" URL="../Protobuf RAW/uint32/uint32.lvclass"/>
-			<Item Name="uint64.lvclass" Type="LVClass" URL="../Protobuf RAW/uint64/uint64.lvclass"/>
-			<Item Name="VarINT.lvclass" Type="LVClass" URL="../Protobuf RAW/VarINT Encoder/VarINT.lvclass"/>
+			<Item Name="bool.lvclass" Type="LVClass" URL="../bool/bool.lvclass"/>
+			<Item Name="enum.lvclass" Type="LVClass" URL="../enum/enum.lvclass"/>
+			<Item Name="int32.lvclass" Type="LVClass" URL="../int32/int32.lvclass"/>
+			<Item Name="int64.lvclass" Type="LVClass" URL="../int64/int64.lvclass"/>
+			<Item Name="sint32.lvclass" Type="LVClass" URL="../sint32/sint32.lvclass"/>
+			<Item Name="sint64.lvclass" Type="LVClass" URL="../sint64/sint64.lvclass"/>
+			<Item Name="uint32.lvclass" Type="LVClass" URL="../uint32/uint32.lvclass"/>
+			<Item Name="uint64.lvclass" Type="LVClass" URL="../uint64/uint64.lvclass"/>
+			<Item Name="VarINT.lvclass" Type="LVClass" URL="../VarINT Encoder/VarINT.lvclass"/>
 		</Item>
 	</Item>
-	<Item Name="New Tag.vi" Type="VI" URL="../Protobuf RAW/Helpers/New Tag.vi"/>
+	<Item Name="New Tag.vi" Type="VI" URL="../Helpers/New Tag.vi"/>
 </Library>
