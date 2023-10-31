@@ -41,7 +41,7 @@
 				<Item Name="Type Serializer.lvclass" Type="LVClass" URL="../Type Serializer/Type Serializer.lvclass"/>
 				<Item Name="Wire Type Group.lvclass" Type="LVClass" URL="../Wire Type Group/Wire Type Group.lvclass"/>
 			</Item>
-			<Item Name="Proto Type Common.lvclass" Type="LVClass" URL="../Proto Type Common/Proto Type Common.lvclass"/>
+			<Item Name="Proto Type Data Base.lvclass" Type="LVClass" URL="../Proto Type Common/Proto Type Data Base.lvclass"/>
 		</Item>
 		<Item Name="LEN" Type="Folder">
 			<Item Name="bytes.lvclass" Type="LVClass" URL="../bytes/bytes.lvclass"/>
